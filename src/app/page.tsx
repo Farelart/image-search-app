@@ -2,7 +2,7 @@ import SearchForm from "@/components/SearchForm"
 import CardList from "@/components/CardList"
 
 type HomeProps = {
-  searchParams: {q: string}
+  searchParams: {q: string},
 }
 
 export default function Home({searchParams} : HomeProps) {

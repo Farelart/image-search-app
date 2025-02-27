@@ -1,9 +1,11 @@
 "use client";
+
 import { useRouter } from "next/navigation";
 
 export default function SearchForm() {
 /*   const [searchText, setSearchText] = useState("");
- */  const router = useRouter();
+ */  
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
